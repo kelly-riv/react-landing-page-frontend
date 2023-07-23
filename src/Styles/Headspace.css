@@ -3,7 +3,6 @@ header{
 
 }
 .black-btn{
-    background-color: black;
     color: aliceblue;
     font-family: "Ink Free";
     font-size: x-large;
@@ -13,7 +12,7 @@ header{
 
 }
 .white-space{
-    background-color: blue;
+    background-color: black;
 }
 
 .red-space{
@@ -42,8 +41,8 @@ header{
     color: aliceblue;
     font-family: "Ink Free";
     font-weight: bolder;
-    border-style: dashed;
-    border-color: rgb(96, 96, 96);
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
     border-width: 0.5rem;
   }
 
@@ -84,4 +83,111 @@ main{
 
 .main{
     background-image: url();
+}
+
+.footer-headspace{
+    background-color: black;
+}
+
+
+
+
+/* Blackspace */
+
+
+.about{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/736x/fc/e1/4c/fce14c69f80ef575f12db21a7476d79a.jpg");
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    overflow-x: hidden;
+}
+
+.blackspace{
+    background-color: white;
+    background-attachment: fixed;
+}
+
+.title-about{
+    color: aliceblue;
+    font-family: "Ink Free";
+    font-size: 3rem;
+}
+.accordion-item{
+    background-color: black;
+    border: 0.3rem;
+    border-style: dotted;
+    border-top-style: none;
+    color: aliceblue;
+    font-family: "Ink Free";
+}
+
+.collapseOne{
+    background-color: blanchedalmond;
+}
+.accordion-body{
+    background-color: black;
+}
+
+
+/* Friends */
+
+.Omori{
+    background-color: black;
+    font-family: 'Segoe Script';
+    color: rgb(255, 0, 76);
+    border: 0.5rem;
+    border-color: rgb(255, 255, 255);
+    border-style: dotted;
+}
+
+.Kel{
+    background-color: rgb(252, 197, 95);
+    font-family: 'Ink Free';
+    border: 0.5rem;
+    border-color: rgb(255, 75, 30);
+    border-style: dotted;
+
+}
+
+.Aubrey{
+    background-color: pink;
+    font-family: 'Bradley Hand ITC';
+    border: 0.5rem;
+    border-color: rgb(215, 79, 197);
+    border-style: dotted;
+}
+
+.Hero{
+    background-color: rgb(117, 172, 253);
+    font-family: 'Baskerville Old Face';
+    font-size: large;
+    border: 0.5rem;
+    border-color: rgb(79, 108, 215);
+    border-style: dotted;
+}
+
+.Basil{
+    background-color: aquamarine;
+    font-family: 'Edwardian Script ITC';
+    font-size: x-large;
+    border: 0.5rem;
+    border-color: rgb(41, 129, 16);
+    border-style: dotted;
+}
+
+.Mari{
+    background-color: black;
+    font-family: 'Freestyle Script';
+    font-size: x-large;
+    color: rgb(222, 48, 48);
+    border: 0.5rem;
+    border-color: rgb(255, 227, 220);
+    border-style: dotted;
+}
+
+.blackspacebg{
+    background-image: url("https://i.pinimg.com/736x/fc/e1/4c/fce14c69f80ef575f12db21a7476d79a.jpg");
+    
 }

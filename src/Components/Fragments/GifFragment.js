@@ -1,10 +1,8 @@
 import React from 'react';
 
-const GifFragment = ({url}) => {
+const GifFragment = ({url,height = "7rem"}) => {
   return (
-    <div>
-      <img src={url} alt="Animated GIF" style={{height:"7rem"}}/>
-    </div>
+      <img src={url} alt="Animated GIF" style={{height:height}}/>
   );
 };
 
