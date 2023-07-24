@@ -225,12 +225,15 @@ main{
     color: white;
     background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
     font-family: 'Ink Free';
-
-
 }
 
 .container-ejercicio{
     background-color: blanchedalmond;
     font-family: 'Ink Free';
     font-weight: 800;
+}
+
+.main-ejercicios{
+    height: 70rem;
+
 }

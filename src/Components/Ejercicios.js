@@ -10,7 +10,7 @@ import Ejercicio3Fragment from "./Fragments/Ejercicio3Fragment";
 
 const Ejercicios= () =>{
     return(<>
-    <main>
+    <main className="main-ejercicios">
         <br/><br/>
         <div className="container">
         <div className="row">
@@ -24,16 +24,22 @@ const Ejercicios= () =>{
 
         <center><h1 className="ejercicio">Ejercicios</h1></center>
         <div className="container-ejercicio">
-        <Ejercicio1Fragment/>
+        <center>
+            <Ejercicio1Fragment/></center>
         </div>
+
+        <br/>
+
         
         <div className="container-ejercicio">
-            <Ejercicio2Fragment/>
+        <center>
+            <Ejercicio2Fragment/></center>
         </div>
         <br/>
 
         <div className="container-ejercicio">
-            <Ejercicio3Fragment/>
+            <center>
+            <Ejercicio3Fragment/></center>
         </div>
         </div>
         </main>

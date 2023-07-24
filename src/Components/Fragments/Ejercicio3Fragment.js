@@ -25,7 +25,7 @@ const Ejercicio3Fragment = () =>{
             <input type="checkbox" name="terminos" checked={terminoContrato}  onChange={handleTermino} />
             <label htmlFor="terminos"> Acepto términos de contrato </label> <br/>
             
-            <button type="button">Guardar nombre de usuario</button> <br/>
+            <button type="button" className="black-btn white-space">Guardar nombre de usuario</button> <br/>
 
         </>
     )
