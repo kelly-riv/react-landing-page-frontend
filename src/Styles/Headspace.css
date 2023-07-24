@@ -89,7 +89,18 @@ main{
     background-color: black;
 }
 
+.get-image{
+    background-image: url("https://images6.alphacoders.com/114/1148181.png");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: cover;
+    min-height: fit-content;
+    overflow-x: hidden;
+}
 
+.get-height{
+    min-height: 37rem;
+}
 
 
 /* Blackspace */
@@ -133,6 +144,16 @@ main{
 
 /* Friends */
 
+.likes{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: green;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
 .Omori{
     background-color: black;
     font-family: 'Segoe Script';
@@ -145,6 +166,8 @@ main{
 .Kel{
     background-color: rgb(252, 197, 95);
     font-family: 'Ink Free';
+    font-weight: bolder;
+
     border: 0.5rem;
     border-color: rgb(255, 75, 30);
     border-style: dotted;
@@ -154,6 +177,7 @@ main{
 .Aubrey{
     background-color: pink;
     font-family: 'Bradley Hand ITC';
+    font-weight: bolder;
     border: 0.5rem;
     border-color: rgb(215, 79, 197);
     border-style: dotted;
@@ -172,6 +196,8 @@ main{
     background-color: aquamarine;
     font-family: 'Edwardian Script ITC';
     font-size: x-large;
+    font-weight: bolder;
+
     border: 0.5rem;
     border-color: rgb(41, 129, 16);
     border-style: dotted;
@@ -181,6 +207,7 @@ main{
     background-color: black;
     font-family: 'Freestyle Script';
     font-size: x-large;
+    font-weight: 200;
     color: rgb(222, 48, 48);
     border: 0.5rem;
     border-color: rgb(255, 227, 220);
