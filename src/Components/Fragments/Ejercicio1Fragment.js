@@ -26,15 +26,14 @@ const Ejercicio1Fragment = () =>{
     return(
         <>
         <div class="Container">
-        <h1>Ejercicio</h1>
+        <h1>Ejercicio 1</h1>
         <label htmlFor="usuario">Indique el número para su cálculo</label>
         <input type="number" name="usuario" placeholder="Número" onChange={handleNumber} /> <br />
-        <button type="button" onClick={handleFactorial}>Calcular factorial</button> <br/>
+        <button type="button" className="black-btn white-space" onClick={handleFactorial}>Calcular factorial</button> <br/>
         {resultado != 0 &&
                 <p>El factorial de {numValue} es: {resultado}</p>
             }
         </div>
-        <Link to="/ejercicios">Volver a ejercicios</Link>
         </>
     )
 }

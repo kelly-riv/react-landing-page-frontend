@@ -218,3 +218,19 @@ main{
     background-image: url("https://i.pinimg.com/736x/fc/e1/4c/fce14c69f80ef575f12db21a7476d79a.jpg");
     
 }
+
+/* Ejercicios */
+
+.ejercicio{
+    color: white;
+    background-image: url("https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp");
+    font-family: 'Ink Free';
+
+
+}
+
+.container-ejercicio{
+    background-color: blanchedalmond;
+    font-family: 'Ink Free';
+    font-weight: 800;
+}
