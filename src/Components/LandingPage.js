@@ -32,14 +32,14 @@ const LandingPage =()=>{
             <center>
             <div className="container row">
                 <div className="col-sd-6 col-md-4">
-                    <ButtonFragment label={"Equipo"} linkTo={"/about"}/>
+                    <ButtonFragment label={"Team"} linkTo={"/about"}/>
                 </div>
                 <div className="col-sd-6 col-md-4">
-                    <ButtonFragment label={"Progreso"} linkTo={"/ejercicios"}/>
+                    <ButtonFragment label={"Progress"} linkTo={"/ejercicios"}/>
         
                 </div>
                 <div className="col-sd-6 col-md-4">
-                    <ButtonFragment label={"Consiguelo ahora"} linkTo={"/obtener"}/>
+                    <ButtonFragment label={"Get it now"} linkTo={"/obtener"}/>
                 </div>
             </div>
             </center>

@@ -22,7 +22,7 @@ const ConteoFragment = ({character}) =>{
     }
     return(
         <>
-            <button type="button" onClick={handleContador} className={btnNameClass}>Me gusta</button>
+            <button type="button" onClick={handleContador} className={btnNameClass}>Like</button>
             <p className={nameClass}>Likes: {contadorLikes} </p> <br/>
         </>
     )
